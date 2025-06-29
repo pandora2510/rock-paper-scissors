@@ -1,0 +1,117 @@
+* {
+	font-family: Arial;
+	font-size: 13px;
+}
+
+#game-list {
+	background-color: white;
+	border: 1px solid black;
+}
+
+#game-list #games {
+	overflow: auto;
+	height: 250px;
+	margin: 5px;
+	border: 1px solid black;
+}
+
+#game-list .t1 {
+	text-align: right;
+	margin: 0px 5px 5px 5px;
+}
+
+#game-list .t1 #new-game {
+	padding: 5px 10px 5px 10px;
+	cursor: pointer;
+	border: 1px solid black;
+	background-color: white;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+#game-list .t1 #new-game:hover {
+	background-color: gray;
+	color: white;
+}
+
+.item-game {
+	background-color: white;
+	height: 25px;
+	width: 100%;
+	text-align: center;
+}
+
+.item-game:hover {
+	background-color: gray;
+	color: white;	
+}
+
+.item-game .name-game, .item-game .desc, .item-game input {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: middle;
+}
+
+
+#game-num {
+	width: 400px;
+	text-align: center;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#game-num #user-value1, #game-num #user-value2 {
+	width: 70px;
+	height: 70px;
+	border: 1px solid black;
+	background: no-repeat;
+}
+
+#game-num #user1, #game-num #user-acc1, #game-num #user-acc2, #game-num #user2 {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	padding: 0px 5px 0px 5px;
+}
+
+#game-num #user1, #game-num #user2 {
+	width: 160px;
+}
+
+#wait {
+	background-color: white;
+	border: 1px solid black;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 100;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+#wait:hover {
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+
+#wait #msg {
+	border: 1px solid black;
+	margin: 5px; 
+	padding: 5px;
+	width: 350px;
+	height: 150px;
+}
+
+#wait .t3 {
+	margin: 0px 5px 5px 5px;
+	text-align: center;
+}

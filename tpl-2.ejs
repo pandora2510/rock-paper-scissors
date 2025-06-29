@@ -1,0 +1,11 @@
+<table class="item-game" <%= 'id="game-'+id+'"' %>>
+	<tbody>
+		<tr>
+			<td><div class="name-game"><%= id %></div></td>
+			<td width="15%"><div class="desc">Gamers/Viewers</div></td>
+			<td width="5%"><span class="gamers-game"><%= typeof gamers == 'object'?gamers.length:gamers %></span>/<span class="viewers-game"><%= typeof viewers == 'object'?viewers.length:viewers %></span></td>
+			<td width="10%"><input name="game-game" data-click="game-game" type="button" value="game"<%= ((maxCount-(typeof gamers == 'object'?gamers.length:gamers))>0)?'':'disabled="disabled"' %> /></td>
+			<td width="10%"><input name="game-view" data-click="game-view" type="button" value="view" /></td>
+		</tr>
+	</tbody>
+</table>

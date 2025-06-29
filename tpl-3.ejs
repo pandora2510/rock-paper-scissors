@@ -1,0 +1,9 @@
+<table id="game-num">
+	<tbody>
+		<tr><td align="left" width="50%"><div class="name-game"><%= id %></div></td><td align="right"><input name="game-exit" data-click="exit" type="button" value="exit" /></td></tr>
+		<tr><td colspan="2"><span id="user1"><%= user1 %></span><span id="user-acc1"><%= userAcc1 %></span>:<span id="user-acc2"><%= userAcc2 %></span><span id="user2"><%= user2 %></span></td></tr>
+		<tr><td align="center"><div id="user-value1"></div></td><td align="center"><div id="user-value2"></div></td></tr>
+		<tr><td></td><td><input name="throw" data-click="throw" type="button" value="throw"<%= gamer?'':'disabled="disabled"' %> /></td></tr>
+		<tr><td colspan="2" align="left">Gamers: <span id="gamers-game"><%= gamers %></span>; Viewers: <span id="viewers-game"><%= viewers %></span></td></tr>
+	</tbody>
+</table>

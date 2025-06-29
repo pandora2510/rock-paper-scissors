@@ -1,0 +1,10 @@
+<div id="game-list">
+	<div id="games">
+	<% for(var i in games) { %>
+		<%= new EJS({url: '/tpl-2.ejs'}).render(games[i]) %>
+	<% } %>
+	</div>
+	<div class="t1">
+		<span id="new-game" data-click="new-game">New Game</span>
+	</div>
+</div>
