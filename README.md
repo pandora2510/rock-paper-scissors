@@ -3,6 +3,7 @@ Ubuntu 11.04
 Node.js 0.4.11
  - socket.io 0.8.4
  - socket.io-client 0.8.4
+
 Клиент:
 chromium 12.0.742.112
  - jQuery 1.6.4
@@ -10,27 +11,27 @@ chromium 12.0.742.112
  
 Файлы
 для исполнения на сервере:
-server.js(главный файл)
-channels.js
-listGames.js
-game.js
+ - server.js(главный файл)
+ - channels.js
+ - listGames.js
+ - game.js
 
 Статические файлы и файлы для исполнения на клиенте:
-index.html
-jquery.min.js
-ejs.js
-c_listGames.js
-c_game.js
-client.js
-style.css
-tpl-1.ejs
-tpl-2.ejs
-tpl-3.ejs
-tpl-4.ejs
-paper.jpg
-rock.jpg
-scissors.jpg
-wait.png
+ - index.html
+ - jquery.min.js
+ - ejs.js
+ - c_listGames.js
+ - c_game.js
+ - client.js
+ - style.css
+ - tpl-1.ejs
+ - tpl-2.ejs
+ - tpl-3.ejs
+ - tpl-4.ejs
+ - paper.jpg
+ - rock.jpg
+ - scissors.jpg
+ - wait.png
 
 Игра по умолчанию доступна по адресу: http://localhost:8081/
 
